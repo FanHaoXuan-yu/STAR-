@@ -15,6 +15,8 @@ void duoJiRotate(int angle){
 
 void setup() {
   // put your setup code here, to run once:
+  Serial.begin(9600);
+  BT.begin(9600);
   duoJi.attach(duoJiPin);//连接舵机
 }
 
