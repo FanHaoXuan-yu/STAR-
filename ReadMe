@@ -1,12 +1,1 @@
-STAR电控组招新考核
 
-##  完整运行指南
-
-### 视觉任务：
-1. 进入视觉任务文件夹：`cd "视觉任务"`
-2. 运行图片处理：`python "STAR视觉图片.py"`
-3. 运行视频处理：`python "STAR视觉视频.py"`
-
-###  Arduino任务：
-- 基础舵机：用Arduino IDE打开 `基础任务/Servo.ino`
-- 蓝牙舵机：用Arduino IDE打开 `嵌软任务/BlueTeethServo.ino`
